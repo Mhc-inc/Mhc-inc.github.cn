@@ -13,16 +13,29 @@ weboard 0.1
         <script type="text/javascript">
             var $eleBtn1 = $("#btn1");
             $eleBtn1.click(function(){
-                window.open("https://raw.githubusercontent.com/Mhc-inc/Mhc-inc.github.io/main/MHC微博.app");
+                window.open("https://github.com/Mhc-inc/mhc-inc.github.io/archive/refs/heads/main.zip");
             });
             //表单下载
             var $eleBtn2 = $("#btn2");
             $eleBtn2.click(function(){
                 var $eleForm = $("<form method='get' </form>");
-                $eleForm.attr("action","https://raw.githubusercontent.com/Mhc-inc/Mhc-inc.github.io/main/MHC微博.app");
+                $eleForm.attr("action","https://github.com/Mhc-inc/mhc-inc.github.io/archive/refs/heads/main.zip");
                 $(document.body).append($eleForm);
                 $eleForm.submit();
             })
         </script>
+    </body>
+</html>
+<br>
+<img src="./weboard.jpg"  alt="上海鲜花港 - 郁金香" />
+<html>
+    <head>
+        <meta content="text/html" charset="UTF-8">
+            <title>HTML设置图片为页面背景</title>
+    </head>
+    <body background="weboard_app_background.jpg"
+        style="background-repeat:no-repeat
+               background-attachment:fixed;
+               background-size:100%; ">
     </body>
 </html>
